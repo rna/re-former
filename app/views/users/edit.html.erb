@@ -1,0 +1,11 @@
+<%=form_for @user, url: user_path(@user), method: :patch do |f|%>
+    
+    <%=f.label :username, 'Username'%>
+    <%=f.text_field :username%>
+    <%=f.label :email, 'Email'%>
+    <%=f.email_field :email%>
+    <%=f.label :password, 'Password'%>
+    <%=f.password_field :password%>
+
+    <%=f.submit "submit"%>
+<% end %>

@@ -15,7 +15,7 @@
 <!--</form>-->
 
 
-<!--<%= form_tag("/posts",method="post") do %>-->
+<!--<%= form_tag("/posts", method: :post) do %>-->
 <!--  <%= label_tag(:username, "UserName")%>-->
 <!--  <%= text_field_tag(:username) %>-->
   
@@ -24,4 +24,16 @@
   
 <!--  <%= label_tag(:password, "Password")%>-->
 <!--  <%= password_field_tag(:password) %>-->
-<!--<% end %>-->
+<!--<% end %>--> 
+
+<%=form_for @user, url: users_path(@user), do |f|%>
+    
+    <%=f.label :username, 'Username'%>
+    <%=f.text_field :username%>
+    <%=f.label :email, 'Email'%>
+    <%=f.email_field :email%>
+    <%=f.label :password, 'Password'%>
+    <%=f.password_field :password%>
+
+    <%=f.submit "submit"%>
+<% end %>
