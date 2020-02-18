@@ -26,7 +26,7 @@
 <!--  <%= password_field_tag(:password) %>-->
 <!--<% end %>--> 
 
-<%=form_for @user, url: users_path(@user), do |f|%>
+<%=form_for @user, url: users_path(@user) do |f|%>
     
     <%=f.label :username, 'Username'%>
     <%=f.text_field :username%>
