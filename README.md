@@ -104,4 +104,3 @@ Project Link: [https://github.com/rna/re-former](https://github.com/rna/re-forme
 [license-shield]: https://img.shields.io/github/license/rna/re-former.svg?style=flat-square
 [license-url]: https://github.com/rna/re-former/blob/master/LICENSE.txt
 [product-screenshot]: imgs/screenshot.jpg
-
