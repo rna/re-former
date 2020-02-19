@@ -1,3 +1,30 @@
+<!--<h1>New User Registration</h1>-->
+
+<!--<form accept-charset="UTF-8" action= "<%=users_path%>" method="POST">-->
+<!--  <label for="username">UserName : </label>-->
+<!--  <input name="user[username]" id="username" type="text">-->
+<!--  <br>-->
+<!--  <label for="email">Email:</label>-->
+<!--  <input name="user[email]" id="email" type="text">-->
+<!--  <br>-->
+<!--  <label for="password">Password:</label>-->
+<!--  <input name="user[password]" id="password" type="password">-->
+<!--  <br>-->
+<!--  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>" >-->
+<!--  <input value="Register" type="submit" >-->
+<!--</form>-->
+
+
+<!--<%= form_tag(users_path, method: :post) do %>-->
+<!--  <%= label_tag(:username, "UserName")%>-->
+<!--  <%= text_field_tag(:username) %>-->
+  
+<!--  <%= label_tag(:email, "Email")%>-->
+<!--  <%= text_field_tag(:email) %>-->
+  
+<!--  <%= label_tag(:password, "Password")%>-->
+<!--  <%= password_field_tag(:password) %>-->
+<!--<% end %>--> 
 <%=form_for @user, url: user_path(@user), method: :patch do |f|%>
     
     <%=f.label :username, 'Username'%>
