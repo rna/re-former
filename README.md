@@ -16,7 +16,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <h2 class ="norse" align="center" style="@font-face {font-family: 'Norse'; src: url('/fonts/Norse.otf'); font-family:'Norse'}">Bare Metal Forms & Helpers</h2>
+  <h2 class ="norse" align="center">Bare Metal Forms & Helpers</h2>
 
   <br />
 </p>
@@ -25,14 +25,14 @@
 
 ## Table of Contents
 
-- [About the Project](#about-the-project)
+- [Table of Contents](#table-of-contents)
+- [About The Project](#about-the-project)
   - [Built With](#built-with)
 - [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
 - [Usage](#usage)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- ABOUT THE PROJECT -->
 
@@ -74,7 +74,7 @@ git clone https://github.com/rna/re-former
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-In order to run the app, Download repository to your local machine, then run `rails server`.
+In order to run the app, follow the installation instructions and make sure to meet all the prerequisites. After that, run  `rails server`, open your browser and navigate to http://localhost:3000.
         
 
 <!-- CONTACT -->
@@ -93,15 +93,15 @@ Project Link: [https://github.com/rna/re-former](https://github.com/rna/re-forme
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/jdmartinez1062/Micro-Reddit.svg?style=flat-square
-[contributors-url]: https://github.com/jdmartinez1062/Micro-Reddit/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/jdmartinez1062/Micro-Reddit.svg?style=flat-square
-[forks-url]: https://github.com/jdmartinez1062/Micro-Reddit/network/members
-[stars-shield]: https://img.shields.io/github/stars/jdmartinez1062/Micro-Reddit.svg?style=flat-square
-[stars-url]: https://github.com/jdmartinez1062/Micro-Reddit/stargazers
-[issues-shield]: https://img.shields.io/github/issues/jdmartinez1062/Micro-Reddit.svg?style=flat-square
-[issues-url]: https://github.com/jdmartinez1062/Micro-Reddit/issues
-[license-shield]: https://img.shields.io/github/license/jdmartinez1062/Micro-Reddit.svg?style=flat-square
-[license-url]: https://github.com/jdmartinez1062/Micro-Reddit/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/rna/re-former.svg?style=flat-square
+[contributors-url]: https://github.com/rna/re-former/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/rna/re-former.svg?style=flat-square
+[forks-url]: https://github.com/rna/re-former/network/members
+[stars-shield]: https://img.shields.io/github/stars/rna/re-former.svg?style=flat-square
+[stars-url]: https://github.com/rna/re-former/stargazers
+[issues-shield]: https://img.shields.io/github/issues/rna/re-former.svg?style=flat-square
+[issues-url]: https://github.com/rna/re-former/issues
+[license-shield]: https://img.shields.io/github/license/rna/re-former.svg?style=flat-square
+[license-url]: https://github.com/rna/re-former/blob/master/LICENSE.txt
 [product-screenshot]: imgs/screenshot.jpg
 

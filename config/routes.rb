@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   get 'users/create'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-  resources :users, except: [:destroy]
+  resources :users, only: [:new, :show, :create, :edit, :update]
 end
